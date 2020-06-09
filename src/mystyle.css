@@ -1,0 +1,33 @@
+/* .contact-form form .form-record {
+    background-color: #ffffff;
+    
+    height: 55px;
+    font-size: 15px;
+    border: 1px solid #ffffff;
+}
+
+.contact-form form .form-record:focus {
+    border: 1px solid #00b0ee;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+
+.contact-form form textarea.form-record {
+    height: auto;
+    padding-top: 15px;
+    line-height: initial;
+} */
+
+
+.form-record {
+    color: #6c757d;
+    border: none;
+    font-size: 15px;
+    height: auto;
+    min-height: 55px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
