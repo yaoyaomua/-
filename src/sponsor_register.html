@@ -5,7 +5,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>主办方机构注册</title>
+    <title>赛事数据存证管理:主办方机构注册</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -28,44 +28,25 @@
 <body>
 
     <!-- Preloader -->
-    <!-- <div class="preloader">
+    <div class="preloader">
         <div class="loader">
             <div class="shadow"></div>
             <div class="box"></div>
         </div>
-    </div> -->
+    </div>
     <!-- End Preloader -->
 
     <!-- 导航部分 -->
     <!--为赛事主办方机构sponsor，队伍team，选手player，普通用户user -->
         <!-- Start Navbar Area -->
         <div class="navbar-area">
-            <div class="plamb-responsive-nav">
-                <div class="container">
-                    <div class="plamb-responsive-menu">
-                        <div class="logo">
-                            <a href="index.html">
-                                <!-- 图标 -->
-                                <!-- <img src="assets/img/logo.png" class="white-logo" alt="logo">
-                                <img src="assets/img/logo-black.png" class="black-logo" alt="logo"> -->
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <div class="plamb-nav">
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="index.html">
-                            <!-- 图标 -->
-                            <!-- <img src="assets/img/logo.png" class="white-logo" alt="logo">
-                            <img src="assets/img/logo-black.png" class="black-logo" alt="logo"> -->
-                        </a>
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link active ">
+                                    <a href="index.html" class="nav-link active">
                                         Home 
                                         <i class="fas fa-chevron-down"></i>
                                     </a>
@@ -79,83 +60,78 @@
                                 </li>
                                 <li class="nav-item">
                                     <a href="#" class="nav-link active">
-                                        User 
+                                        Admin 
                                         <i class="fas fa-chevron-down"></i>
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="index.html" class="nav-link">
+                                            <a href="#" class="nav-link">
                                                 管理员
                                             </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link active">
+                                    <a href="src/sponsor_login.html" class="nav-link active">
                                         Sponsor
                                         <i class="fas fa-chevron-down"></i>
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="index.html" class="nav-link">
+                                            <a href="src/sponsor_login.html" class="nav-link">
                                                 赛事主办方机构
                                             </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link active">
+                                    <a href="src/team_login.html" class="nav-link active">
                                         Team 
                                         <i class="fas fa-chevron-down"></i>
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="index.html" class="nav-link">
+                                            <a href="src/team_login.htm" class="nav-link">
                                                 队伍
                                             </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link active">
+                                    <a href="src/player_login.html" class="nav-link active">
                                         Player 
                                         <i class="fas fa-chevron-down"></i>
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="index.html" class="nav-link">
+                                            <a href="src/player_login.html" class="nav-link">
                                                 队员
                                             </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link active">
+                                    <a href="src/user_login.html" class="nav-link active">
                                         User 
                                         <i class="fas fa-chevron-down"></i>
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="index.html" class="nav-link">
+                                            <a href="src/user_login.html" class="nav-link">
                                                 普通用户
                                             </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link active">
-                                        Data 
+                                    <a href="index.html" class="nav-link active">
+                                        Contact Us 
                                         <i class="fas fa-chevron-down"></i>
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
                                             <a href="index.html" class="nav-link">
-                                                查找赛事数据
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="index.html" class="nav-link">
-                                                查找参赛数据
+                                                联系我们
                                             </a>
                                         </li>
                                     </ul>
@@ -188,31 +164,31 @@
                                     
                                     <div class="col-lg-12 col-md-6">
                                         <div class="form-group">
-                                            <input type="text" name="name" id="name" class="form-control" required data-error="请输入正确的主办方机构名称" placeholder="主办方机构名称">
+                                            <input type="text" id="Sponsor_Name" class="form-control" required data-error="请输入正确的主办方机构名称" placeholder="主办方机构名称">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
                                     <div class="col-lg-12 col-md-6">
                                         <div class="form-group">
-                                            <input type="text" name="name" id="name" class="form-control" required data-error="请输入正确的主办方机构ID" placeholder="主办方机构ID">
+                                            <input type="text" id="Sponsor_ID" class="form-control" required data-error="请输入正确的主办方机构ID" placeholder="主办方机构ID">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
                                     <div class="col-lg-12 col-md-6">
                                         <div class="form-group">
-                                            <input type="text" name="name" id="name" class="form-control" required data-error="请输入正确的国家" placeholder="国家">
+                                            <input type="text" id="Sponsor_Natiom" class="form-control" required data-error="请输入正确的国家" placeholder="国家">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
                                     <div class="col-lg-12 col-md-6">
                                         <div class="form-group">
-                                            <input type="text" name="name" id="name" class="form-control" required data-error="请输入正确的地址" placeholder="地址">
+                                            <input type="text" id="Sponsor_Address" class="form-control" required data-error="请输入正确的地址" placeholder="地址">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
                                     <div class="col-lg-12 col-md-6">
                                         <div class="form-group">
-                                            <input type="text" name="name" id="name" class="form-control" required data-error="请输入正确的邮箱" placeholder="邮箱">
+                                            <input type="text" id="Sponsor_Email" class="form-control" required data-error="请输入正确的邮箱" placeholder="邮箱">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
@@ -220,33 +196,32 @@
                                     
                                     <div class="col-lg-12 col-md-6">
                                         <div class="form-group">
-                                            <input type="text" name="name" id="name" class="form-control" required data-error="请输入正确的主办方主页链接" placeholder="队伍主办方链接">
+                                            <input type="text" id="Sponsor_Home" class="form-control" required data-error="请输入正确的主办方主页链接" placeholder="队伍主办方链接">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
                                     <div class="col-lg-12 col-md-6">
                                         <div class="form-group">
-                                            <input type="text" name="name" id="name" class="form-control" required data-error="请输入正确的区块链账号密码" placeholder="区块链账号密码">
+                                            <input type="text" id="Sponsor_BlockChainStar" class="form-control" required data-error="请输入正确的区块链账号密码" placeholder="区块链账号密码">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
                                     <div class="col-lg-12 col-md-6">
                                         <div class="form-group">
-                                            <input type="text" name="name" id="name" class="form-control" required data-error="请输入正确的系统账号密码" placeholder="系统账号密码">
+                                            <input type="text" id="Sponsor_Star" class="form-control" required data-error="请输入正确的系统账号密码" placeholder="系统账号密码">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 col-md-12">
-                                        <button type="submit" class="submit-btn">注册</button>
-                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                    <div class="col-lg-12 col-md-12">
+                                        <a href="record1.html" >
+                                            <button type="submit" class="submit-btn">注册</button>
+                                        </a>                                        
                                     </div>
-                                    <div class="col-lg-6 col-md-12">
-                                        <a href="#" type="submit" class="submit-btn">已有账户，点击登录</a>
-                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                    <div style="margin: 12px auto 0 auto;">
+                                        <a href="sponsor_login.html" >
+                                            已有账户，点击登录
+                                        </a>  
                                     </div>
-                                    </div>
-                                    
-                                    
                                 </div>
                             </form>
                         </div>
