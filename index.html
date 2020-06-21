@@ -8,21 +8,20 @@
     <title>赛事数据存证管理</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/flaticon.css">
-    <link rel="stylesheet" href="assets/css/odometer.min.css">
-    <link rel="stylesheet" href="assets/css/meanmenu.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
-    <link rel="stylesheet" href="assets/css/nice-select.min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="/src/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/src/assets/css/animate.min.css">
+    <link rel="stylesheet" href="/src/assets/css/flaticon.css">
+    <link rel="stylesheet" href="/src/assets/css/odometer.min.css">
+    <link rel="stylesheet" href="/src/assets/css/meanmenu.css">
+    <link rel="stylesheet" href="/src/assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="/src/assets/css/nice-select.min.css">
+    <link rel="stylesheet" href="/src/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/src/assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/src/assets/css/style.css">
+    <link rel="stylesheet" href="/src/assets/css/responsive.css">
 
     <!-- 网站图标 （还没有做好，所以先不设置）-->
     <!-- <link rel="icon" type="image/png" href=""> -->
-/0
 
 </head>
 <body>
@@ -36,132 +35,113 @@
     </div>
     <!-- End Preloader -->
 
-    <!-- 导航部分 -->
-    <!--为赛事主办方机构sponsor，队伍team，选手player，普通用户user -->
-        <!-- Start Navbar Area -->
-        <div class="navbar-area">
-            <div class="plamb-responsive-nav">
-                <div class="container">
-                    <div class="plamb-responsive-menu">
-                        <div class="logo">
-                            <a href="index.html">
-                                <!-- 图标 -->
-                                <!-- <img src="assets/img/logo.png" class="white-logo" alt="logo">
-                                <img src="assets/img/logo-black.png" class="black-logo" alt="logo"> -->
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="plamb-nav">
-                <div class="container">
-                    <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="index.html">
-                            <!-- 图标 -->
-                            <!-- <img src="assets/img/logo.png" class="white-logo" alt="logo">
-                            <img src="assets/img/logo-black.png" class="black-logo" alt="logo"> -->
-                        </a>
-                        <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link ">
-                                        Home 
-                                        <i class="fas fa-chevron-down"></i>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="index.html" class="nav-link">
-                                                主页
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link ">
-                                        User 
-                                        <i class="fas fa-chevron-down"></i>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="index.html" class="nav-link">
-                                                管理员
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link ">
-                                        Sponsor
-                                        <i class="fas fa-chevron-down"></i>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="index.html" class="nav-link">
+<!-- 导航部分 -->
+<!--为赛事主办方机构sponsor，队伍team，选手player，普通用户user -->
+<!-- Start Navbar Area -->
+    <div class="navbar-area">
+        <div class="plamb-nav">
+            <div class="container">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link ">
+                                    Home 
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="index.html" class="nav-link">
+                                            主页
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link ">
+                                    Admin 
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">
+                                            管理员
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="src/sponsor_login.html" class="nav-link ">
+                                    Sponsor
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                            <a href="src/sponsor_login.html" class="nav-link">
                                                 赛事主办方机构
                                             </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link ">
-                                        Team 
-                                        <i class="fas fa-chevron-down"></i>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="index.html" class="nav-link">
-                                                队伍
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link ">
-                                        Player 
-                                        <i class="fas fa-chevron-down"></i>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="index.html" class="nav-link">
-                                                队员
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link ">
-                                        User 
-                                        <i class="fas fa-chevron-down"></i>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="index.html" class="nav-link">
-                                                普通用户
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link ">
-                                        Contact Us 
-                                        <i class="fas fa-chevron-down"></i>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="index.html" class="nav-link">
-                                                联系我们
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="src/team_login.html" class="nav-link ">
+                                    Team 
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="src/team_login.htm" class="nav-link">
+                                            队伍
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="src/player_login.html" class="nav-link ">
+                                    Player 
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="src/player_login.html" class="nav-link">
+                                            队员
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="src/user_login.html" class="nav-link ">
+                                    User 
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="src/user_login.html" class="nav-link">
+                                            普通用户
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link ">
+                                    Contact Us 
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="index.html" class="nav-link">
+                                            联系我们
+                                        </a>
+                                    </li>
+                                </ul>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
         </div>
+    </div>
         <!-- 导航部分结束 -->
 
         <!-- 主体界面 -->
@@ -175,11 +155,11 @@
                                     <h1 >Applying Data Sscience & Block Chain to Competition</h1>
                                     <p style="font-size: 25px;">运用区块链技术，对赛事数据进行存证与管理。</p>
                                     <div class="banner-btn">
-                                        <a href="#" class="default-btn-one">
+                                        <a href="index.html" class="default-btn-one">
                                             About Us
                                             <span></span>
                                         </a>
-                                        <a class="default-btn" href="#">
+                                        <a class="default-btn" href="index.html">
                                             Contact Us 
                                             <span></span>
                                         </a>
@@ -189,19 +169,19 @@
 
                             <div class="col-lg-6 col-md-12">
                                 <div class="banner-image">
-                                    <img src="assets/img/home-three/1.png" class="wow fadeInUp" data-wow-delay="0.6s" alt="image">
-                                    <img src="assets/img/home-three/2.png" class="wow fadeInUp" data-wow-delay="0.6s" alt="image">
-                                    <img src="assets/img/home-three/3.png" class="wow fadeInLeft" data-wow-delay="0.6s" alt="image">
-                                    <img src="assets/img/home-three/4.png" class="wow zoomIn" data-wow-delay="0.6s" alt="image">
-                                    <img src="assets/img/home-three/5.png" class="wow bounceIn" data-wow-delay="0.6s" alt="image">
-                                    <img src="assets/img/home-three/6.png" class="wow fadeInDown" data-wow-delay="0.6s" alt="image">
-                                    <img src="assets/img/home-three/7.png" class="wow zoomIn" data-wow-delay="0.6s" alt="image">
-                                    <img src="assets/img/home-three/8.png" class="wow fadeInUp" data-wow-delay="0.6s" alt="image">
-                                    <img src="assets/img/home-three/9.png" class="wow rotateIn" data-wow-delay="0.6s" alt="image">
-                                    <img src="assets/img/home-three/10.png" class="wow fadeInUp" data-wow-delay="0.6s" alt="image">
-                                    <img src="assets/img/home-three/11.png" class="wow zoomIn" data-wow-delay="0.6s" alt="image">
+                                    <img src="/src/assets/img/home-three/1.png" class="wow fadeInUp" data-wow-delay="0.6s" alt="image">
+                                    <img src="/src/assets/img/home-three/2.png" class="wow fadeInUp" data-wow-delay="0.6s" alt="image">
+                                    <img src="/src/assets/img/home-three/3.png" class="wow fadeInLeft" data-wow-delay="0.6s" alt="image">
+                                    <img src="/src/assets/img/home-three/4.png" class="wow zoomIn" data-wow-delay="0.6s" alt="image">
+                                    <img src="/src/assets/img/home-three/5.png" class="wow bounceIn" data-wow-delay="0.6s" alt="image">
+                                    <img src="/src/assets/img/home-three/6.png" class="wow fadeInDown" data-wow-delay="0.6s" alt="image">
+                                    <img src="/src/assets/img/home-three/7.png" class="wow zoomIn" data-wow-delay="0.6s" alt="image">
+                                    <img src="/src/assets/img/home-three/8.png" class="wow fadeInUp" data-wow-delay="0.6s" alt="image">
+                                    <img src="/src/assets/img/home-three/9.png" class="wow rotateIn" data-wow-delay="0.6s" alt="image">
+                                    <img src="/src/assets/img/home-three/10.png" class="wow fadeInUp" data-wow-delay="0.6s" alt="image">
+                                    <img src="/src/assets/img/home-three/11.png" class="wow zoomIn" data-wow-delay="0.6s" alt="image">
 
-                                    <img src="assets/img/home-three/main-image.png" class="wow zoomIn" data-wow-delay="0.12s" alt="image">
+                                    <img src="/src/assets/img/home-three/main-image.png" class="wow zoomIn" data-wow-delay="0.12s" alt="image">
                                 </div>
                             </div>
                         </div>
@@ -210,13 +190,13 @@
             </div>
 
             <div class="creative-shape">
-                <img src="assets/img/main-banner-shape/home-shape-3.png" alt="main-image">
+                <img src="/src/assets/img/main-banner-shape/home-shape-3.png" alt="main-image">
             </div>
             <div class="shape-img1">
-                <img src="assets/img/main-banner-shape/2.png" alt="image">
+                <img src="/src/assets/img/main-banner-shape/2.png" alt="image">
             </div>
             <div class="shape-img2">
-                <img src="assets/img/main-banner-shape/3.png" alt="image">
+                <img src="/src/assets/img/main-banner-shape/3.png" alt="image">
             </div>
         </div>
         <!-- 主题界面结束 -->
@@ -229,7 +209,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="about-image">
-                            <img src="assets/img/blog/3.png" alt="png">
+                            <img src="/src/assets/img/blog/3.png" alt="png">
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -261,7 +241,7 @@
                             </ul>
 
                             <div class="about-btn">
-                                <a class="default-btn" href="about.html">
+                                <a class="default-btn" href="index.html">
                                     Read More 
                                     <span></span>
                                 </a>
@@ -419,13 +399,13 @@
                             <div class="footer-info-contact">
                                 <i class="flaticon-call-answer"></i>
                                 <h3>电话</h3>
-                                <span><a href="tel:+882-569-756">+123456789</a></span>
+                                <span>+123456789</a></span>
                             </div>
 
                             <div class="footer-info-contact">
                                 <i class="flaticon-envelope"></i>
                                 <h3>邮箱</h3>
-                                <span><a href="mailto:hello@plamb.com">SportData@pku.edu.cn</a></span>
+                                <span>SportData@pku.edu.cn</a></span>
                             </div>
 
                             <div class="footer-info-contact">
@@ -445,7 +425,7 @@
             </div>
 
             <div class="partner-shape-img1">
-                <img src="assets/img/shape/partnar-shape-2.png" alt="image">
+                <img src="/src/assets/img/shape/partnar-shape-2.png" alt="image">
             </div>
         </section>
         <!-- End Footer Section -->
@@ -462,21 +442,21 @@
 
 
 
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/popper.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/jquery.meanmenu.js"></script>
-        <script src="assets/js/jquery.appear.min.js"></script>
-        <script src="assets/js/odometer.min.js"></script>
-        <script src="assets/js/owl.carousel.min.js"></script>
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        <script src="assets/js/jquery.nice-select.min.js"></script>
-        <script src="assets/js/jquery.ajaxchimp.min.js"></script>
-        <script src="assets/js/wow.min.js"></script>
-        <script src="assets/js/form-validator.min.js"></script>
-        <script src="assets/js/contact-form-script.js"></script>
-        <script src="assets/js/main.js"></script>
-        <script src="assets/js/web3.min.js"></script>
-        <script src="assets/js/truffle-contract.min.js"></script>
+        <script src="/src/assets/js/jquery.min.js"></script>
+        <script src="/src/assets/js/popper.min.js"></script>
+        <script src="/src/assets/js/bootstrap.min.js"></script>
+        <script src="/src/assets/js/jquery.meanmenu.js"></script>
+        <script src="/src/assets/js/jquery.appear.min.js"></script>
+        <script src="/src/assets/js/odometer.min.js"></script>
+        <script src="/src/assets/js/owl.carousel.min.js"></script>
+        <script src="/src/assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="/src/assets/js/jquery.nice-select.min.js"></script>
+        <script src="/src/assets/js/jquery.ajaxchimp.min.js"></script>
+        <script src="/src/assets/js/wow.min.js"></script>
+        <script src="/src/assets/js/form-validator.min.js"></script>
+        <script src="/src/assets/js/contact-form-script.js"></script>
+        <script src="/src/assets/js/main.js"></script>
+        <script src="/src/assets/js/web3.min.js"></script>
+        <script src="/src/assets/js/truffle-contract.min.js"></script>
 </body>
 </html>
